@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Player</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="./player.js"></script>
+	<link rel="stylesheet" type="text/css" href="player.css"/>
+</head>
+<body>
+  <div class="player-wrapper">
+      <div class="video">
+        <!--
+        data-ytid="8M-Rtu3EXVA" - video ID
+        data-timer-time="15" - time in seconds
+        data-timer-target="#playerTimerBlock" - block that should be displayed after time left
+        -->
+        <div id="player" data-ytid="hS5CfP8n_js" data-ytwidth="720" data-ytheight="405" data-timer-time="15" data-timer-target="#playerTimerBlock"></div>
+      </div>
+      <div class="glass">
+      </div>
+	</div>
+
+  <div style="display: none;" id="playerTimerBlock"><p align="center">Text after 15 seconds</p></div>
+  <script type="text/javascript" src="./ytinit.js"></script>
+</body>
+</html>

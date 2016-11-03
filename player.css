@@ -1,0 +1,52 @@
+.video {
+	position: absolute;
+	width: 853px;
+	height: 405px;
+	margin: 0 auto;
+	background: #000;
+	cursor: pointer;
+	cursor: hand;
+	z-index: 999;
+	text-align: center;
+	padding: 52px 0 53px 0;
+}
+
+.player-wrapper {
+	width: 853px;
+	height: 510px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.glass {
+	position: absolute;
+	width: 853px;
+	height: 510px;
+	background-color: transparent;
+	z-index: 9999;
+}
+
+#player {
+	z-index: 999;
+	margin: 0 auto;
+}
+
+#playerTimerBlock {
+	position: absolute;
+	left: 50%;
+	top: 200px;
+	margin-left: -320px;
+	z-index: 10000;
+	width: 600px;
+	padding: 20px;
+	color: #500;
+	font-family: Arial;
+	font-size: 24px;
+	background-color: rgba(255, 100, 100, 0.5);
+	border-style: solid;
+	border-width: 1px;
+	border-color: #500;
+	border-radius: 10px;
+	overflow: hidden;
+
+}
